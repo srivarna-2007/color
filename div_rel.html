@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div with rel size</title>
+    <style>
+        .container{
+            background-color: pink;
+            border:2px solid red;
+            display:flex;
+            height:200px;
+            /* flex-wrap:wrap; */
+            align-items:stretch;
+            /* justify-content:space-around; */
+        }
+        .item{
+            border:2px solid green;
+            flex-basis:10px
+            /* width:10px; */
+            /* margin:5px; */
+            /* padding:5px */
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item one">item 1 item</div>
+        <div class="item two">item 2 item</div>
+        <div class="item three">item 3 item</div>
+        <div class="item four">item 4 item</div>
+        <div class="item five">item 5 item</div>
+    </div>
+    
+</body>
+</html>
